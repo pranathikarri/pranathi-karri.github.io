@@ -1,183 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pranathi Karri | Data Analyst • Data Science • ML Freelancer</title>
+  <title>Pranathi Karri | Data Analyst Freelancer</title>
   <style>
-    :root {
-      --primary:#0f172a;
-      --accent:#2563eb;
-      --bg:#f4f6f8;
-      --card:#ffffff;
-      --text:#1f2937;
-      --muted:#6b7280;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;font-family:Arial, Helvetica, sans-serif;background:var(--bg);color:var(--text)}
-    a{color:var(--accent);text-decoration:none;font-weight:600}
-    a:hover{text-decoration:underline}
-
-    header{
-      background:linear-gradient(135deg,#0f172a,#111827);
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:linear-gradient(135deg,#020617,#020617);
       color:#fff;
-      padding:80px 20px;
-      text-align:center;
+      height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
     }
-    header h1{margin:0;font-size:42px}
-    header p{margin:12px 0;font-size:18px}
-
-    .btn{
-      display:inline-block;
-      background:var(--accent);
-      color:#fff;
-      padding:12px 22px;
-      border-radius:8px;
-      margin:6px;
+    .container{
+      max-width:1000px;
+      width:90%;
+      display:grid;
+      grid-template-columns:1.2fr 0.8fr;
+      gap:40px;
+      align-items:center;
     }
-    .btn.secondary{background:#334155}
+    h1{font-size:48px;margin:0}
+    h2{color:#38bdf8;margin:10px 0}
+    p{color:#cbd5f5;line-height:1.6}.buttons a{
+  display:inline-block;
+  margin:10px 10px 0 0;
+  padding:12px 22px;
+  border-radius:30px;
+  background:#0ea5e9;
+  color:#fff;
+  font-weight:600;
+  text-decoration:none;
+}
+.buttons a.secondary{background:#1e293b}
 
-    section{max-width:1100px;margin:auto;padding:60px 20px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
-    .card{background:var(--card);border-radius:14px;padding:26px;box-shadow:0 10px 22px rgba(0,0,0,.06)}
-    h2{margin-top:0;color:var(--primary)}
-    h3{margin-bottom:8px}
-    ul{padding-left:18px;line-height:1.7}
-    .pill{display:inline-block;background:#e5edff;color:#1e40af;padding:6px 12px;border-radius:999px;margin:4px 6px 0 0;font-size:13px}
-    .muted{color:var(--muted)}
+.profile{
+  text-align:center;
+}
+.profile img{
+  width:260px;
+  height:260px;
+  border-radius:50%;
+  border:6px solid #38bdf8;
+  object-fit:cover;
+}
 
-    footer{background:#0f172a;color:#fff;text-align:center;padding:24px}
+@media(max-width:800px){
+  .container{grid-template-columns:1fr;text-align:center}
+}
+
   </style>
 </head>
-<body>
-
-<!-- HERO / FIRST PAGE -->
-<header>
-  <h1>Pranathi Karri</h1>
-  <p>Data Analyst • Data Science • Machine Learning Freelancer</p>
-  <p class="muted">Turning raw data into insights • Dashboards • Intelligent ML solutions</p>
-
-  <div>
-    <a class="btn" href="#services">Services</a>
-    <a class="btn secondary" href="#projects">Projects</a>
-    <a class="btn" href="#skills">Skills</a>
-    <a class="btn secondary" href="#contact">Contact</a>
+<body>  <!-- FIRST PAGE / LANDING ONLY -->  <div class="container">
+    <div>
+      <h1>Hello, It's Me</h1>
+      <h1>Pranathi Karri</h1>
+      <h2>Data Analyst • Data Science • ML Freelancer</h2>
+      <p>
+        I help businesses turn raw data into insights, dashboards,
+        and intelligent machine learning solutions.
+      </p><div class="buttons">
+    <a href="about.html">About</a>
+    <a href="projects.html" class="secondary">Projects</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html" class="secondary">Contact</a>
   </div>
-</header>
+</div>
 
-<!-- ABOUT -->
-<section id="about">
-  <div class="card">
-    <h2>About Me</h2>
-    <p>
-      I am a Data Analyst and Machine Learning enthusiast with hands-on experience in
-      data analysis, visualization, and deep learning projects.
-    </p>
-    <p>
-      I help businesses, startups, and individuals make data-driven decisions by
-      transforming raw data into meaningful insights and deployable ML solutions.
-    </p>
-  </div>
-</section>
+<div class="profile">
+  <!-- Replace profile.jpg with your image -->
+  <img src="profile.jpg" alt="Pranathi Karri" />
+</div>
 
-<!-- SERVICES -->
-<section id="services">
-  <h2>Services</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>📊 Data Analysis</h3>
-      <ul>
-        <li>Data Cleaning & Preprocessing</li>
-        <li>Exploratory Data Analysis (EDA)</li>
-        <li>Business Reports & Insights</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h3>📈 Dashboards & Visualization</h3>
-      <ul>
-        <li>Power BI Dashboards</li>
-        <li>Python (Matplotlib, Seaborn)</li>
-        <li>KPI Tracking</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h3>🤖 Machine Learning</h3>
-      <ul>
-        <li>Classification & Prediction Models</li>
-        <li>Model Evaluation & Optimization</li>
-        <li>NLP & Deep Learning</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h3>🌐 ML Web Applications</h3>
-      <ul>
-        <li>Flask-based ML Apps</li>
-        <li>Model Deployment</li>
-        <li>API Integration</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects">
-  <h2>Featured Projects</h2>
-  <div class="grid">
-
-    <div class="card">
-      <h3>Privacy Preserving Brain Tumor Detection</h3>
-      <p>Federated learning-based system to detect brain tumors from MRI scans while keeping medical data private.</p>
-      <span class="pill">Python</span><span class="pill">PyTorch</span><span class="pill">Flower</span><span class="pill">Flask</span><span class="pill">TensorFlow</span>
-    </div>
-
-    <div class="card">
-      <h3>Fake News Detection</h3>
-      <p>Machine learning pipeline using NLP techniques to classify fake and real news articles.</p>
-      <span class="pill">Python</span><span class="pill">Scikit-learn</span><span class="pill">NLP</span><span class="pill">Pandas</span><span class="pill">Matplotlib</span>
-    </div>
-
-    <div class="card">
-      <h3>Multimodal Emotion Detection (Deep Learning)</h3>
-      <p>Developed a multimodal deep learning system to detect human emotions using text, audio, and visual inputs.</p>
-      <ul>
-        <li>Extracted features from text, speech, and facial expressions</li>
-        <li>Implemented CNN/LSTM-based deep learning models</li>
-        <li>Improved emotion classification accuracy using multimodal fusion</li>
-      </ul>
-      <span class="pill">Python</span><span class="pill">Deep Learning</span><span class="pill">CNN</span><span class="pill">LSTM</span>
-    </div>
-
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="card">
-    <p><b>Analytics:</b> Python, Pandas, NumPy, SQL, Excel</p>
-    <p><b>Visualization:</b> Power BI, Matplotlib</p>
-    <p><b>Machine Learning:</b> Scikit-learn, TensorFlow, PyTorch, NLP</p>
-    <p><b>Deep Learning:</b> CNN, LSTM, Multimodal Models</p>
-    <p><b>Deployment:</b> Flask</p>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <h2>Contact</h2>
-  <div class="card">
-    <p>📧 Email: pranathikarri08@gmail.com</p>
-    <p>📞 Phone: +91 73963 27238</p>
-    <p>🔗 LinkedIn: <a href="https://linkedin.com/in/pranathi-karri" target="_blank">linkedin.com/in/pranathi-karri</a></p>
-  </div>
-</section>
-
-<footer>
-  <p>© 2025 Pranathi Karri • Data Analyst | Data Science | ML Freelancer</p>
-</footer>
-
-</body>
+  </div></body>
 </html>
