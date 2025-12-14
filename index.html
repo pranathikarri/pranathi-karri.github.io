@@ -1,165 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Pranathi Karri | Data Science Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f5f7fa;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #222;
-        }
-        .box {
-            background: white;
-            padding: 25px;
-            margin-bottom: 25px;
-            border-radius: 10px;
-        }
-        ul {
-            line-height: 1.8;
-        }
-        a {
-            color: #0066cc;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranathi Karri | Data Analyst • Data Science • ML Freelancer</title>
+  <style>
+    :root {
+      --primary:#0f172a;
+      --accent:#2563eb;
+      --bg:#f4f6f8;
+      --card:#ffffff;
+      --text:#1f2937;
+      --muted:#6b7280;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;background:var(--bg);color:var(--text)}
+    a{color:var(--accent);text-decoration:none;font-weight:600}
+    a:hover{text-decoration:underline}
+    header{background:linear-gradient(135deg,#0f172a,#111827);color:#fff;padding:64px 20px;text-align:center}
+    header h1{margin:0;font-size:40px}
+    header p{margin:10px 0 0;font-size:18px}
+    header .cta{margin-top:22px}
+    .btn{display:inline-block;background:var(--accent);color:#fff;padding:12px 20px;border-radius:8px;margin:6px}
+    .btn.secondary{background:#334155}
+    section{max-width:1100px;margin:auto;padding:40px 20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+    .card{background:var(--card);border-radius:12px;padding:24px;box-shadow:0 10px 20px rgba(0,0,0,.06)}
+    h2{margin-top:0;color:var(--primary)}
+    h3{margin-bottom:8px}
+    ul{padding-left:18px;line-height:1.7}
+    .pill{display:inline-block;background:#e5edff;color:#1e40af;padding:6px 10px;border-radius:999px;margin:4px 6px 0 0;font-size:13px}
+    .muted{color:var(--muted)}
+    footer{background:#0f172a;color:#fff;text-align:center;padding:24px}
+  </style>
 </head>
-
 <body>
 
-<div class="box">
-<h1>Pranathi Karri</h1>
-<p><b>Data Science Student & ML Enthusiast</b></p>
-<p>📍 Visakhapatnam, Andhra Pradesh, India</p>
-<p>
-Turning raw data into meaningful insights and building intelligent solutions that make a real impact.
-</p>
-</div>
+<header>
+  <h1>Pranathi Karri</h1>
+  <p>Data Analyst • Data Science • Machine Learning Freelancer</p>
+  <p class="muted">Turning raw data into insights • Dashboards • ML solutions</p>
+  <div class="cta">
+    <a class="btn" href="#contact">Hire Me</a>
+    <a class="btn secondary" href="#projects">View Projects</a>
+  </div>
+</header>
 
-<div class="box">
-<h2>About Me</h2>
-<p>
-I am a final-year Computer Science student specializing in Data Science at Vignan's Institute of Engineering for Women.
-My journey in tech is driven by a fascination with how data can unlock insights and power smarter decisions.
-</p>
-<p>
-I have hands-on experience from internships at APSCHE and HMIES Solutions, where I worked on real-world machine learning projects,
-built dashboards, and delivered data-driven recommendations.
-</p>
-<p>
-I believe in continuous learning and staying ahead of emerging technologies through hackathons, projects, and self-learning.
-</p>
-</div>
+<section>
+  <div class="card">
+    <h2>What I Do</h2>
+    <p>I help businesses and individuals make data-driven decisions using analytics, visualization, and machine learning.
+       From messy data to clear insights, I deliver practical, understandable solutions.</p>
+  </div>
+</section>
 
-<div class="box">
-<h2>Education</h2>
-<ul>
-<li><b>B.Tech – Computer Science & Engineering (Data Science)</b><br>
-Vignan's Institute of Engineering for Women (2022 – 2026)<br>
-CGPA: 7.78</li><br>
+<section>
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>📊 Data Analysis</h3>
+      <ul>
+        <li>Data cleaning & preprocessing</li>
+        <li>Exploratory Data Analysis (EDA)</li>
+        <li>Business insights & reports</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>📈 Dashboards & Visualization</h3>
+      <ul>
+        <li>Power BI dashboards</li>
+        <li>Python visualizations (Matplotlib)</li>
+        <li>KPI tracking & reporting</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🤖 Machine Learning</h3>
+      <ul>
+        <li>Classification & prediction models</li>
+        <li>Model evaluation & tuning</li>
+        <li>NLP & ML pipelines</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🌐 ML Web Apps</h3>
+      <ul>
+        <li>Flask-based ML apps</li>
+        <li>Model deployment</li>
+        <li>API integration</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-<li><b>Intermediate</b><br>
-Sri Chaitanya Junior College (2020 – 2022)<br>
-83.2%</li><br>
+<section id="projects">
+  <h2>Featured Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Privacy Preserving Brain Tumor Detection</h3>
+      <p>Federated learning-based system to detect brain tumors from MRI scans while keeping patient data private.</p>
+      <p><b>Tools:</b></p>
+      <span class="pill">Python</span><span class="pill">PyTorch</span><span class="pill">Flower</span><span class="pill">Flask</span><span class="pill">TensorFlow</span>
+      <p class="muted">(Add GitHub link here)</p>
+    </div>
+    <div class="card">
+      <h3>Fake News Detection</h3>
+      <p>End-to-end ML pipeline using NLP techniques to classify fake and real news articles.</p>
+      <p><b>Tools:</b></p>
+      <span class="pill">Python</span><span class="pill">Scikit-learn</span><span class="pill">NLP</span><span class="pill">Pandas</span><span class="pill">Matplotlib</span>
+      <p class="muted">(Add GitHub link here)</p>
+    </div>
+    <div class="card">
+      <h3>Sales Data Analysis Dashboard</h3>
+      <p>Analyzed sales data to uncover trends, top products, and performance metrics.</p>
+      <p><b>Tools:</b></p>
+      <span class="pill">Power BI</span><span class="pill">SQL</span><span class="pill">Python</span>
+      <p class="muted">(Add GitHub / Dashboard link here)</p>
+    </div>
+  </div>
+</section>
 
-<li><b>SSC</b><br>
-Saint Jude's English Medium High School (2019 – 2020)<br>
-CGPA: 8.8</li>
-</ul>
-</div>
+<section>
+  <h2>Skills</h2>
+  <div class="card">
+    <p><b>Analytics:</b> Python, Pandas, NumPy, SQL, Excel</p>
+    <p><b>Visualization:</b> Power BI, Matplotlib</p>
+    <p><b>ML:</b> Scikit-learn, TensorFlow, PyTorch, NLP</p>
+    <p><b>Deployment:</b> Flask</p>
+  </div>
+</section>
 
-<div class="box">
-<h2>Skills</h2>
-<ul>
-<li><b>Programming:</b> Python, Java, C</li>
-<li><b>Databases:</b> MySQL</li>
-<li><b>Web:</b> HTML, CSS</li>
-<li><b>Libraries & Tools:</b> Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch, Flask, Power BI, Flower (FL)</li>
-<li><b>Soft Skills:</b> Problem Solving, Teamwork, Communication, Analytical Thinking</li>
-</ul>
-</div>
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>📧 Email: pranathikarri08@gmail.com</p>
+    <p>📞 Phone: +91 73963 27238</p>
+    <p>🔗 LinkedIn: <a href="https://linkedin.com/in/pranathi-karri" target="_blank">linkedin.com/in/pranathi-karri</a></p>
+  </div>
+</section>
 
-<div class="box">
-<h2>Experience</h2>
-
-<h3>Data Analytics Intern – HMIES Solution Pvt. Ltd</h3>
-<p><i>Apr 2025 – Jun 2025</i></p>
-<ul>
-<li>Imported, cleaned, and validated large datasets to ensure data reliability</li>
-<li>Built dashboards using Matplotlib and Power BI</li>
-<li>Performed EDA to identify trends and provide actionable insights</li>
-</ul>
-
-<h3>Data Science / Machine Learning Intern – APSCHE</h3>
-<p><i>Jun 2024 – Aug 2024</i></p>
-<ul>
-<li>Applied ML algorithms on real-world educational datasets</li>
-<li>Performed preprocessing, feature engineering, and model evaluation</li>
-<li>Prepared reports and presented data-driven insights</li>
-</ul>
-</div>
-
-<div class="box">
-<h2>Projects</h2>
-
-<h3>Privacy Preserving Brain Tumor Detection (Federated Learning)</h3>
-<p>
-Engineered a privacy-aware brain tumor detection system using federated learning to process MRI scans without sharing sensitive data.
-</p>
-<ul>
-<li>CNN model trained across distributed clients using PyTorch Flower</li>
-<li>Flask-based web app for MRI upload and prediction</li>
-<li>HIPAA-ready privacy-preserving architecture</li>
-</ul>
-<p><b>Technologies:</b> Python, PyTorch, Flower, Flask, TensorFlow, CNN</p>
-
-<h3>Fake News Detection using Machine Learning</h3>
-<p>
-Built an end-to-end ML pipeline to detect fake news articles using NLP techniques and classification models.
-</p>
-<ul>
-<li>Applied NLP techniques like tokenization and TF-IDF</li>
-<li>Trained Logistic Regression, Naïve Bayes, and SVM models</li>
-<li>Evaluated models using accuracy and F1-score</li>
-</ul>
-<p><b>Technologies:</b> Python, Scikit-learn, NLP, Pandas, Matplotlib</p>
-</div>
-
-<div class="box">
-<h2>Certifications</h2>
-<ul>
-<li>Elite – Programming in Java (NPTEL, IIT Kharagpur)</li>
-<li>Elite – Database Management System (NPTEL, IIT Kharagpur)</li>
-<li>Python for Data Science (NPTEL, IIT Kharagpur)</li>
-<li>Elite – Data Mining (NPTEL, IIT Kharagpur)</li>
-</ul>
-</div>
-
-<div class="box">
-<h2>Activities</h2>
-<ul>
-<li>Participated in seminars and workshops</li>
-<li>Participated in Power BI workshop</li>
-<li>Participated in ideathons and hackathons</li>
-<li>Active in cultural activities</li>
-</ul>
-</div>
-
-<div class="box">
-<h2>Contact</h2>
-<p>Email: pranathikarri08@gmail.com</p>
-<p>Phone: +91 73963 27238</p>
-<p>LinkedIn: <a href="https://linkedin.com/in/pranathi-karri" target="_blank">
-linkedin.com/in/pranathi-karri</a></p>
-</div>
+<footer>
+  <p>© 2025 Pranathi Karri • Data Analyst | Data Science | ML Freelancer</p>
+</footer>
 
 </body>
 </html>
-
