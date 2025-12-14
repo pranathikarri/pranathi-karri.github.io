@@ -1,78 +1,47 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pranathi Karri | Data Analyst Freelancer</title>
-  <style>
-    body{
-      margin:0;
-      font-family:Arial, Helvetica, sans-serif;
-      background:linear-gradient(135deg,#020617,#020617);
-      color:#fff;
-      height:100vh;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-    }
-    .container{
-      max-width:1000px;
-      width:90%;
-      display:grid;
-      grid-template-columns:1.2fr 0.8fr;
-      gap:40px;
-      align-items:center;
-    }
-    h1{font-size:48px;margin:0}
-    h2{color:#38bdf8;margin:10px 0}
-    p{color:#cbd5f5;line-height:1.6}.buttons a{
-  display:inline-block;
-  margin:10px 10px 0 0;
-  padding:12px 22px;
-  border-radius:30px;
-  background:#0ea5e9;
-  color:#fff;
-  font-weight:600;
-  text-decoration:none;
-}
-.buttons a.secondary{background:#1e293b}
-
-.profile{
-  text-align:center;
-}
-.profile img{
-  width:260px;
-  height:260px;
-  border-radius:50%;
-  border:6px solid #38bdf8;
-  object-fit:cover;
-}
-
-@media(max-width:800px){
-  .container{grid-template-columns:1fr;text-align:center}
-}
-
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranathi Karri</title>
+<link rel="stylesheet" href="menu.css">
 </head>
-<body>  <!-- FIRST PAGE / LANDING ONLY -->  <div class="container">
-    <div>
-      <h1>Hello, It's Me</h1>
-      <h1>Pranathi Karri</h1>
-      <h2>Data Analyst • Data Science • ML Freelancer</h2>
-      <p>
-        I help businesses turn raw data into insights, dashboards,
-        and intelligent machine learning solutions.
-      </p><div class="buttons">
-    <a href="about.html">About</a>
-    <a href="projects.html" class="secondary">Projects</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html" class="secondary">Contact</a>
-  </div>
+<body>
+
+
+<header class="nav">
+<h2>Pranathi</h2>
+<button class="menu-btn" onclick="openMenu()">☰</button>
+</header>
+
+
+<section class="hero">
+<span class="badge">🟢 Open to opportunities</span>
+<h1>Hi, I'm <span>Pranathi Karri</span></h1>
+<h3>Data Analyst & ML Enthusiast</h3>
+<p>Turning raw data into meaningful insights and building intelligent solutions.</p>
+<p class="location">📍 Visakhapatnam, Andhra Pradesh, India</p>
+
+
+<div class="buttons">
+<a href="projects.html">View My Work</a>
+<a class="outline" href="contact.html">Get in Touch</a>
+</div>
+</section>
+
+
+<div id="menu" class="menu">
+<button class="close" onclick="closeMenu()">✕</button>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="skills.html">Skills</a>
+<a href="experience.html">Experience</a>
+<a href="projects.html">Projects</a>
+<a href="certifications.html">Certifications</a>
+<a href="contact.html">Contact</a>
 </div>
 
-<div class="profile">
-  <!-- Replace profile.jpg with your image -->
-  <img src=""C:\Users\infinix\OneDrive\pranathi.jpg"" alt="Pranathi Karri" />
-</div>
 
-  </div></body>
+<script src="menu.js"></script>
+</body>
 </html>
