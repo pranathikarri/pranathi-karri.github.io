@@ -1,25 +1,151 @@
-<section class="section">
-  <h1>Projects</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
 
-  <h3>Privacy Preserving Brain Tumor Detection</h3>
-  <ul>
-    <li>Developed a CNN-based deep learning model for MRI image classification.</li>
-    <li>Implemented federated learning to ensure patient data privacy.</li>
-    <li>Built a Flask web application for real-time predictions.</li>
-    <li>Focused on secure and scalable healthcare AI solutions.</li>
-  </ul>
+<header class="nav">
+  <h2>Pranathi</h2>
+  <button class="menu-btn" onclick="openMenu()">☰</button>
+</header>
 
-  <h3>Fake News Detection using Machine Learning</h3>
-  <ul>
-    <li>Applied NLP techniques such as TF-IDF and text preprocessing.</li>
-    <li>Trained Logistic Regression, Naïve Bayes, and SVM models.</li>
-    <li>Evaluated models using accuracy and F1-score.</li>
-  </ul>
+<section class="page">
+  <h1 class="center-heading">Projects</h1>
 
-  <h3>Multimodal Emotion Detection using Deep Learning</h3>
-  <ul>
-    <li>Built an emotion recognition system using multiple input modalities.</li>
-    <li>Used deep learning models for feature extraction and classification.</li>
-    <li>Improved emotion recognition accuracy using multimodal data fusion.</li>
-  </ul>
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-box">
+      <h3>Privacy Preserving Brain Tumor Detection</h3>
+      <p>
+        <b>Overview:</b><br>
+        This project focuses on detecting brain tumors from MRI images while ensuring
+        patient data privacy. Instead of centralizing sensitive medical data, a
+        federated learning approach was used to train models securely.
+      </p>
+
+      <p><b>Key Work:</b></p>
+      <ul>
+        <li>Designed and trained CNN models for MRI image classification</li>
+        <li>Implemented Federated Learning using Flower framework</li>
+        <li>Ensured privacy-compliant AI suitable for healthcare applications</li>
+        <li>Deployed a Flask-based web app for real-time predictions</li>
+      </ul>
+
+      <p><b>Tools & Technologies:</b><br>
+        Python, PyTorch, TensorFlow, Flower (FL), CNN, Flask
+      </p>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-box">
+      <h3>Fake News Detection using Machine Learning</h3>
+      <p>
+        <b>Overview:</b><br>
+        Developed a machine learning solution to automatically classify news articles
+        as fake or genuine, helping reduce misinformation using NLP techniques.
+      </p>
+
+      <p><b>Key Work:</b></p>
+      <ul>
+        <li>Performed text preprocessing (tokenization, stop-word removal)</li>
+        <li>Extracted features using TF-IDF vectorization</li>
+        <li>Trained Logistic Regression, Naïve Bayes, and SVM models</li>
+        <li>Evaluated performance using accuracy and F1-score</li>
+      </ul>
+
+      <p><b>Tools & Technologies:</b><br>
+        Python, Scikit-learn, NLP, TF-IDF, Pandas, Matplotlib
+      </p>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-box">
+      <h3>Multimodal Emotion Detection using Deep Learning</h3>
+      <p>
+        <b>Overview:</b><br>
+        Built an intelligent emotion recognition system by combining multiple data
+        modalities to improve prediction accuracy and robustness.
+      </p>
+
+      <p><b>Key Work:</b></p>
+      <ul>
+        <li>Developed deep learning models for multimodal feature extraction</li>
+        <li>Combined multiple input sources using data fusion techniques</li>
+        <li>Optimized model performance for emotion classification</li>
+      </ul>
+
+      <p><b>Tools & Technologies:</b><br>
+        Python, TensorFlow, PyTorch, CNN, LSTM, Deep Learning
+      </p>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-box">
+      <h3>Trader Analysis</h3>
+      <p>
+        <b>Overview:</b><br>
+        An analytical project aimed at understanding trader behavior, profitability,
+        and risk patterns using historical trading data.
+      </p>
+
+      <p><b>Key Work:</b></p>
+      <ul>
+        <li>Analyzed trader performance metrics such as profit, loss, and drawdown</li>
+        <li>Identified profitable and high-risk trading patterns</li>
+        <li>Created visual insights to support data-driven trading decisions</li>
+      </ul>
+
+      <p><b>Tools & Technologies:</b><br>
+        Python, Pandas, NumPy, SQL, Data Visualization
+      </p>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-box">
+      <h3>Startup Funding Analytics Pipeline</h3>
+      <p>
+        <b>Overview:</b><br>
+        Built an end-to-end data analytics pipeline to analyze startup funding data and
+        uncover trends in investments, funding stages, and industries.
+      </p>
+
+      <p><b>Key Work:</b></p>
+      <ul>
+        <li>Collected, cleaned, and transformed startup funding datasets</li>
+        <li>Performed exploratory data analysis on funding rounds and investors</li>
+        <li>Identified trends across industries, stages, and geographies</li>
+        <li>Created dashboards and visual reports</li>
+      </ul>
+
+      <p><b>Tools & Technologies:</b><br>
+        Python, Pandas, NumPy, SQL, Matplotlib, Power BI
+      </p>
+    </div>
+
+  </div>
+
+  <div class="back">
+    <a href="index.html">← Back to Home</a>
+  </div>
 </section>
+
+<!-- MENU -->
+<div id="menu" class="menu">
+  <button class="close" onclick="closeMenu()">✕</button>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="experience.html">Experience</a>
+  <a href="projects.html">Projects</a>
+  <a href="certifications.html">Certifications</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<script src="menu.js"></script>
+</body>
+</html>
