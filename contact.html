@@ -1,17 +1,58 @@
-<section class="section">
-  <h1>Contact</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Pranathi Karri</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
 
-  <p>
-    I am open to freelance projects, internships, and full-time opportunities in
-    Data Analytics, Data Science, and Machine Learning. Feel free to reach out
-    for collaborations or professional discussions.
-  </p>
+<header class="nav">
+  <h2>Pranathi</h2>
+  <button class="menu-btn" onclick="openMenu()">☰</button>
+</header>
 
-  <ul>
-    <li><strong>Email:</strong> pranathikarri08@gmail.com</li>
-    <li><strong>Phone:</strong> +91 73963 27238</li>
-    <li><strong>Location:</strong> Visakhapatnam, Andhra Pradesh, India</li>
-    <li><strong>LinkedIn:</strong> linkedin.com/in/pranathi-karri</li>
-    <li><strong>GitHub:</strong> github.com/pranathi-karri</li>
-  </ul>
+<section class="page">
+  <h1 class="center-heading">Contact</h1>
+
+  <div class="projects-grid" style="max-width:600px;">
+
+    <div class="project-box" style="text-align:center;">
+      <p style="font-size:18px;line-height:1.8;">
+        I am open to freelance work, internships, and full-time opportunities in
+        <b>Data Analytics</b>, <b>Data Science</b>, and <b>Machine Learning</b>.
+        Feel free to reach out for collaborations or professional discussions.
+      </p>
+
+      <hr style="border:1px solid #1e293b;margin:24px 0;">
+
+      <p><b>Email:</b><br> pranathikarri08@gmail.com</p>
+      <p><b>Phone:</b><br> +91 73963 27238</p>
+      <p><b>Location:</b><br> Visakhapatnam, Andhra Pradesh, India</p>
+      <p><b>LinkedIn:</b><br> linkedin.com/in/pranathi-karri</p>
+      <p><b>GitHub:</b><br> github.com/pranathi-karri</p>
+    </div>
+
+  </div>
+
+  <div class="back">
+    <a href="index.html">← Back to Home</a>
+  </div>
 </section>
+
+<!-- MENU -->
+<div id="menu" class="menu">
+  <button class="close" onclick="closeMenu()">✕</button>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="experience.html">Experience</a>
+  <a href="projects.html">Projects</a>
+  <a href="certifications.html">Certifications</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<script src="menu.js"></script>
+</body>
+</html>
