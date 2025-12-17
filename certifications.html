@@ -1,9 +1,81 @@
-<section class="section">
-  <h1>Certifications</h1>
-  <ul>
-    <li>Programming in Java – NPTEL (Elite), IIT Kharagpur</li>
-    <li>Database Management Systems – NPTEL (Elite), IIT Kharagpur</li>
-    <li>Python for Data Science – NPTEL, IIT Kharagpur</li>
-    <li>Data Mining – NPTEL (Elite), IIT Kharagpur</li>
-  </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certifications | Pranathi Karri</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+<header class="nav">
+  <h2>Pranathi</h2>
+  <button class="menu-btn" onclick="openMenu()">☰</button>
+</header>
+
+<section class="page">
+  <h1 class="center-heading">Certifications</h1>
+
+  <div class="projects-grid">
+
+    <div class="project-box">
+      <h3>Programming in Java</h3>
+      <p><b>Platform:</b> NPTEL – IIT Kharagpur</p>
+      <p><b>Achievement:</b> Elite Certification</p>
+      <p>
+        Strengthened object-oriented programming concepts, Java syntax,
+        exception handling, and core application development principles.
+      </p>
+    </div>
+
+    <div class="project-box">
+      <h3>Database Management Systems</h3>
+      <p><b>Platform:</b> NPTEL – IIT Kharagpur</p>
+      <p><b>Achievement:</b> Elite Certification</p>
+      <p>
+        Gained in-depth knowledge of relational databases, SQL queries,
+        normalization, indexing, and transaction management.
+      </p>
+    </div>
+
+    <div class="project-box">
+      <h3>Python for Data Science</h3>
+      <p><b>Platform:</b> NPTEL – IIT Kharagpur</p>
+      <p>
+        Learned Python programming for data analysis including NumPy,
+        Pandas, data visualization, and practical data science workflows.
+      </p>
+    </div>
+
+    <div class="project-box">
+      <h3>Data Mining</h3>
+      <p><b>Platform:</b> NPTEL – IIT Kharagpur</p>
+      <p><b>Achievement:</b> Elite Certification</p>
+      <p>
+        Studied data mining techniques such as classification, clustering,
+        association rule mining, and pattern discovery.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="back">
+    <a href="index.html">← Back to Home</a>
+  </div>
 </section>
+
+<!-- MENU -->
+<div id="menu" class="menu">
+  <button class="close" onclick="closeMenu()">✕</button>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="experience.html">Experience</a>
+  <a href="projects.html">Projects</a>
+  <a href="certifications.html">Certifications</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<script src="menu.js"></script>
+</body>
+</html>
