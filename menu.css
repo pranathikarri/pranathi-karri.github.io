@@ -58,3 +58,8 @@ body{background:#020617;color:#e5e7eb}
   color:#e5e7eb;
   cursor:pointer;
 }
+
+.overview-text {
+  text-indent: 40px;   /* this is the tab space */
+}
+
