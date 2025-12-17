@@ -1,7 +1,4 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
-body{background:#020617;color:#e5e7eb}
-.nav{display:flex;justify-content:space-between;align-items:center;padding:20px 30px}
-.menu-btn{background:none;border:2px solid #7c3aed;color:#7c3aed;font-size:22px;padding:6px 12px;border-radius:8px}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial} body{background:#020617;color:#e5e7eb} .nav{display:flex;justify-content:space-between;align-items:center;padding:20px 30px} .menu-btn{background:none;border:2px solid #7c3aed;color:#7c3aed;font-size:22px;padding:6px 12px;border-radius:8px} .hero{text-align:center;padding:120px 20px} .hero h1{font-size:46px;margin:20px 0} .hero h1 span{color:#7c3aed} .hero h3{color:#94a3b8} .hero p{max-width:600px;margin:14px auto;color:#cbd5f5} .location{margin-top:10px} .badge{background:#0f172a;color:#38bdf8;padding:8px 16px;border-radius:20px} .buttons{margin-top:30px} .buttons a{padding:14px 26px;margin:10px;border-radius:30px;text-decoration:none;font-weight:bold} .buttons a:first-child{background:#7c3aed;color:white} .buttons a.outline{border:2px solid #7c3aed;color:#7c3aed} .menu{position:fixed;top:0;right:-100%;width:100%;height:100%;background:white;color:#020617;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:.4s} .menu a{margin:14px;font-size:20px;text-decoration:none;color:#020617} .close{position:absolute;top:20px;right:30px;font-size:24px;background:none;border:none}
 /* FULL SCREEN MENU */
 .menu{
   position:fixed;
