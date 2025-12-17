@@ -3,24 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>About Me</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="menu.css">
 </head>
 <body>
 
-<header class="nav">
-  <h2>Pranathi</h2>
-  <button class="menu-btn" onclick="openMenu()">☰</button>
-</header>
-
 <section class="page">
-  <h1 class="center-heading">About Me</h1>
 
-  <div style="max-width:900px;margin:0 auto;font-size:18px;line-height:1.8;color:#cbd5f5;">
+  <!-- Heading -->
+  <h1 class="page-title">About Me</h1>
 
+  <!-- Content -->
+  <div class="content-box">
     <p>
-      I am a dedicated Data Science professional with a strong academic background
-      and practical experience in data analytics, machine learning, and deep learning.
+      I am a dedicated Data Science professional with a strong academic background and
+      practical experience in data analytics, machine learning, and deep learning.
       I specialize in transforming complex datasets into meaningful insights that
       support data-driven decision-making.
     </p>
@@ -34,35 +30,23 @@
     <p>
       Through internships and hands-on projects, I have worked with real-world datasets,
       built predictive models, created interactive dashboards, and implemented
-      privacy-preserving AI solutions. I am highly motivated, detail-oriented, and
-      continuously learning to stay aligned with industry standards.
+      privacy-preserving AI solutions. I am highly motivated, detail-oriented,
+      and continuously learning to stay aligned with industry standards.
     </p>
 
     <p>
       I am actively seeking freelance, internship, and entry-level roles where I can
-      contribute my analytical skills, technical expertise, and problem-solving abilities
-      to impactful projects.
+      contribute my analytical skills, technical expertise, and problem-solving
+      abilities to impactful projects.
     </p>
-
   </div>
 
-  <div class="back">
+  <!-- Back Button -->
+  <div class="back-btn">
     <a href="index.html">← Back to Home</a>
   </div>
+
 </section>
 
-<!-- MENU -->
-<div id="menu" class="menu">
-  <button class="close" onclick="closeMenu()">✕</button>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="skills.html">Skills</a>
-  <a href="experience.html">Experience</a>
-  <a href="projects.html">Projects</a>
-  <a href="certifications.html">Certifications</a>
-  <a href="contact.html">Contact</a>
-</div>
-
-<script src="menu.js"></script>
 </body>
 </html>
