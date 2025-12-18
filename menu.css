@@ -63,3 +63,18 @@ body{background:#020617;color:#e5e7eb}
   text-indent: 40px;   /* this is the tab space */
 }
 
+
+.resume-btn{
+  display:inline-block;
+  padding:14px 34px;
+  background:#ffffff;
+  color:#020617;
+  border-radius:999px;   /* perfect oval */
+  text-decoration:none;
+  font-weight:bold;
+  margin-top:10px;
+}
+
+.resume-btn:hover{
+  background:#e5e7eb;
+}
