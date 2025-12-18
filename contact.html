@@ -35,17 +35,23 @@
     }
     .contact-item{
   display:flex;
-  align-items:flex-start;
-  gap:15px;
+  gap:10px;
   margin-bottom:18px;
   font-size:18px;
-  color:#cbd5f5;
+  color:#ffffff;
 }
 
-.contact-item span{
-  min-width:100px;
-  color:#38bdf8;
-  font-weight:bold;
+.label{
+  width:90px;      /* aligns text */
+}
+
+.colon{
+  width:10px;      /* aligns : */
+  text-align:center;
+}
+
+.value{
+  flex:1;
 }
 
     }
@@ -69,13 +75,31 @@
 <section class="contact-section">
   <h1>Contact</h1>
 
-  <div class="contact-box">
-    <div class="contact-item"><span>Email     :</span> pranathikarri08@gmail.com</div>
-    <div class="contact-item"><span>Phone     :</span> +91 73963 27238</div>
-    <div class="contact-item"><span>Location  :</span> India</div>
-    <div class="contact-item"><span>LinkedIn  :</span> linkedin.com/in/pranathi-karri</div>
-    <div class="contact-item"><span>GitHub    :</span> github.com/Pranathi-Karri</div>
-  </div>
+ <div class="contact-item">
+  <span class="label">Email</span><span class="colon">:</span>
+  <span class="value">pranathikarri08@gmail.com</span>
+</div>
+
+<div class="contact-item">
+  <span class="label">Phone</span><span class="colon">:</span>
+  <span class="value">+91 73963 27238</span>
+</div>
+
+<div class="contact-item">
+  <span class="label">Location</span><span class="colon">:</span>
+  <span class="value">India</span>
+</div>
+
+<div class="contact-item">
+  <span class="label">LinkedIn</span><span class="colon">:</span>
+  <span class="value">linkedin.com/in/pranathi-karri</span>
+</div>
+
+<div class="contact-item">
+  <span class="label">GitHub</span><span class="colon">:</span>
+  <span class="value">github.com/Pranathi-Karri</span>
+</div>
+
 
   <div class="back-home">
     <a href="index.html">← Back to Home</a>
